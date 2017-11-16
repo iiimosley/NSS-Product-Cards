@@ -9,12 +9,15 @@ body {
 
 .productCards {
     display: flex;
-    flex-flow: space-around;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .productCards article {
+    display: inline;
     flex-basis: 30%;
-    margin: 0 1em;
+    margin: .5em;
     border: 1px solid lightblue;
 }
 
@@ -26,6 +29,13 @@ li {
 
 .section2, .section3 {
     text-align: left;
+}
+
+h1 {
+    margin-bottom: 3em;
+    padding-bottom: 1.2em;
+    letter-spacing: 8px;
+    border-bottom: 4px double lightgrey;
 }
 
 /* section 1  */
@@ -42,6 +52,7 @@ h2 {
 
 .descript {
     border-top: 1px solid lightblue;
+    height: 30%;
     margin: 0;
     padding-top: 1em;
     text-align: justify;
@@ -52,8 +63,9 @@ h2 {
     background-color: darkgrey; 
 }
 
-.disabled {
-
+.notAvail {
+    color: white;
+    background-color: black; 
 }
 
 /* section 2 */
@@ -63,11 +75,6 @@ h2 {
     margin: 0;
     padding-bottom: 1em;
 }
-
-
-/* section 3 */
-
-
 
 
 /* true footer */
