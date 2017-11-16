@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.productCards {
+    display: flex;
+    flex-flow: space-around;
+}
+
+h2 {
+    border: 1px dotted lightgray;
+    margin: 0;
+}
+
+.productCards article {
+    flex-basis: 30%;
+    margin: 2em 1em;
+    border: 1px solid lightblue;
+}
+
+footer {
+    float: right;
+    text-align: right;
+    margin: 5em 1em 1.5em auto;
+}
+
+.scaleImg {
+    width: 80%;
+    margin: 1em auto;
+}
+
+.descript {
+    border-top: 1px solid lightblue;
+    margin: 0;
+    padding-top: 1em;
+    text-align: justify;
+}
