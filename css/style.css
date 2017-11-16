@@ -1,4 +1,7 @@
+/** main style **/
+
 body {
+    font-family: 'Valera Round', Helvetica, Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -9,21 +12,27 @@ body {
     flex-flow: space-around;
 }
 
-h2 {
-    border: 1px dotted lightgray;
-    margin: 0;
-}
-
 .productCards article {
     flex-basis: 30%;
-    margin: 2em 1em;
+    margin: 0 1em;
     border: 1px solid lightblue;
 }
 
-footer {
-    float: right;
-    text-align: right;
-    margin: 5em 1em 1.5em auto;
+li {
+    font-size: .8em;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.section2, .section3 {
+    text-align: left;
+}
+
+/* section 1  */
+
+h2 {
+    border: 1px dotted lightgray;
+    margin: 0;
 }
 
 .scaleImg {
@@ -36,4 +45,35 @@ footer {
     margin: 0;
     padding-top: 1em;
     text-align: justify;
+}
+
+.avail {
+    color: yellow;
+    background-color: darkgrey; 
+}
+
+.disabled {
+
+}
+
+/* section 2 */
+
+.specStamp {
+    font-size: .4em;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+
+/* section 3 */
+
+
+
+
+/* true footer */
+
+footer {
+    float: right;
+    text-align: right;
+    margin: 5em 1em 1.5em auto;
 }
