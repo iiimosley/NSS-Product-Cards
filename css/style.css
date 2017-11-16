@@ -63,8 +63,9 @@ h2 {
     background-color: darkgrey; 
 }
 
-.disabled {
-    display: none;
+.notAvail {
+    color: white;
+    background-color: black; 
 }
 
 /* section 2 */
@@ -74,11 +75,6 @@ h2 {
     margin: 0;
     padding-bottom: 1em;
 }
-
-
-/* section 3 */
-
-
 
 
 /* true footer */
