@@ -3,6 +3,8 @@
 
 Created a grid of product cards for a company (*Big Smilez*)
 
+Implemented **Flexbox** layout for repsonsive design
+
 ### Directives
 
 1. Each card should be an `article`.
